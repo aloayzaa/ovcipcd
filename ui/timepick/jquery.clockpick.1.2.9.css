@@ -1,0 +1,52 @@
+#CP_hourcont {
+padding: 2px;
+position:absolute;
+border:1px solid #39F;
+background-color:#deedf7;
+display:none;
+z-index:10000000;
+}
+
+#CP_minutecont {
+background-color:#deedf7;
+padding: 0px;
+position:absolute;
+width:55px;
+border: 1px solid #39F;
+display:none;
+z-index:10000000;
+}
+.floatleft {
+float:left;
+z-index:10000000;
+}
+
+.CP_hour {
+padding:2px;
+white-space:nowrap;
+cursor:pointer;
+width:45px;
+margin:2px;
+background-color:#deedf7;
+border: 1px dotted #39F;
+z-index:10000000;
+}
+
+.CP_minute {
+padding:2px;
+background-color:#deedf7;
+z-index: -1;
+white-space:nowrap;
+cursor:pointer;
+width:auto;
+margin:1px;
+border: 1px dotted #39F;
+z-index:10000000;
+}
+
+.CP_over {
+background-color: #FCE443;
+border: 1px solid #FFBD59;
+z-index:10000000;
+
+}
